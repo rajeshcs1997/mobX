@@ -4,7 +4,7 @@ import Home from './Components/Home';
 import UserStore from './UserStore'
 
 const App = () =>{
-	const store = new UserStore()
+  const store = new UserStore()
   return (
     <div className="App">
       <Home store= {store} />
